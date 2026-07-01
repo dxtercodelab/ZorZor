@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    background-color: #fff4d6;
+}
+
+header{
+    margin: auto;
+    padding: 10px;
+    margin-top: -10px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* border: 2px  solid black; */
+}
+
+.LOGO {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+header nav {
+    display: flex;
+    margin: 90px 10px 0 70px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li a:hover {
+    color: blue;
+}
+
+main {
+    padding: 20px 0;     
+    width: 100%;
+    height: 450px;
+    border: 2px solid black;
+}
+ 
+
+.banniere {
+    margin-left: 50px;
+    position: relative;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.banniere-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+
+.banniere-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.banniere-texte {
+   color: white;
+   background-color: #000000;
+   font-size: 16px;
+}
+
+.banniere-boutton {
+    background-color: #8b1a1a;
+    color: white;
+    padding: 6px 15px;
+    text-decoration: none;
+    border-bottom: 1px solid white;   
+    border-radius: 5px;  
+    font-size: 14px;
+}
+
+.banniere-boutton:hover {
+    background-color: #a52a2a;
+}
+
+.ecrit{
+    width: 1390px;
+    margin: 20px;
+    margin-left: 45px;
+    height: 250px;
+    /* border: 1px solid black; */
+}
+
+.ranger{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 40px;
+}
+
+.ranger1{
+    /* border: 1px solid black; */
+    width: 1090px;
+    height: 220px;
+    /* margin-right: 10px; */
+}
+
+.ranger2{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: 300px;
+    height: 220px;
+    background-color: #808080;
+    /* display: flex; */
+}
+
+.ico_epingle{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.ranger1 p{
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.ranger2 p{
+    font-size: 10px;
+    background-color: #808080;
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.ranger2 h3{
+    background-color: #808080;
+    color: white;
+    margin-left: 5px;
+}
+
+.cevre{
+    width: 60px;
+    height: 60px;
+    margin-left: 40%;
+}
+
+.socios{
+    background-color: #808080;  
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.petit{
+    width: 30px;
+    height: 30px; 
+    padding: -20px;
+}
+
+footer{
+    height: 50px;
+}
+
+.pied{
+    display: flex;
+    /* justify-content: space-around; */
+    width: 1390px;
+    margin: 20px;
+    margin-left: 45px;
+    gap: 400px;
+}
+
+.aligne p{
+    margin-top: 10px;
+}
+
+.aligne h3{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.aligne .imgs{
+    margin-top: 10px;
+}
+
+.imgs{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    gap: 5px;
+}
+
+.haut{
+    margin-left: 50%;
+}
+
+ .amis {
+    display: inline-block;
+    background-color: #fdf1d6;
+    padding: 0 0 20px 0;
+    /* border: 1px solid #e0d4b0; */
+  }
+
+  .liste {
+    column-count: 2;
+    column-gap: 20px;
+  }
+
+  .amis1 {
+    color: #ff0400;
+    font-size: 16px;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .amis1 img {
+    width: 8px;
+    height: 8px;
+    margin-right: 10px;
+  }
